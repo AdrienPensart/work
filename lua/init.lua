@@ -1,1 +1,1 @@
-ngx.log(ngx.ERR,"test stderr")
+--ngx.log(ngx.ERR,"test stderr")
