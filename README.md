@@ -1,1 +1,3 @@
-./configure --with-openssl=openssl-1.0.2j
+Objective:
+
+Create a postgresql listen/notify gateway to websocket with openresty.
