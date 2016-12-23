@@ -11,7 +11,7 @@ tar xf openresty-1.11.2.2.tar.gz
 
 nbcores=$(grep -c ^processor /proc/cpuinfo)
 cd openresty-1.11.2.2
-./configure --with-openssl=../openssl-1.0.2j --with-http_postgres_module --with-pcre-jit --with-ipv6 -j$nbcores
+./configure --with-debug --with-openssl=../openssl-1.0.2j --with-http_postgres_module --with-pcre-jit --with-ipv6 -j$nbcores
 make -j$nbcores
 sudo make install
 cd ..
